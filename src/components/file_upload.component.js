@@ -33,7 +33,9 @@ const FileUploadComponent = () => {
                     }}
                 />
             </label>
-            <canvas id="canvas" style={{ display: 'none' }}></canvas>
+            <div>
+                <canvas id="canvas" class="mx-auto"></canvas>
+            </div>
         </div>
     );
 };
