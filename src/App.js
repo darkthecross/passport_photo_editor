@@ -6,11 +6,11 @@ import FileUploadComponent from './components/file_upload.component';
 function App() {
   return (
     <div className="App container mt-5">
-      <div class="px-4 py-3 my-3 text-center">
-        <h1 class="display-5 fw-bold">Passport Photo Generator</h1>
+      <div className="px-4 py-3 my-3 text-center">
+        <h1 className="display-5 fw-bold">Passport Photo Generator</h1>
       </div>
-      <div class="col-lg-6 mx-auto">
-        <p class="lead">
+      <div className="col-lg-6 mx-auto">
+        <p className="lead">
           Please select a photo to start...
         </p>
       </div>
